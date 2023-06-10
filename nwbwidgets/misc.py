@@ -491,6 +491,7 @@ class PSTHWidget(widgets.VBox):
                 raise ValueError("unsupported plot type {}".format(self.psth_type_radio.value))
 
             ax1.set_xlim([start, end])
+            ax1.set_xticks([start, end])
             if i_s == 0:
                 ax1.set_ylabel("firing rate (Hz)", fontsize=12)
             ax1.set_xlabel("time (s)", fontsize=12)
