@@ -20,5 +20,6 @@ fsspec
 requests
 aiohttp
 ipydatawidgets==4.3.2
-itkwidgets[all]>=1.0a23
 ccfwidget
+itk
+itkwidgets[all]<1.0
